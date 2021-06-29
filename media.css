@@ -1,0 +1,35 @@
+@media only screen and (max-width: 375px){
+	
+	#container{
+		height:1326px;
+		width:327px;
+		margin:88px auto 0px auto;
+		background-color:yellow;
+		flex-direction:column;
+		
+	}
+	.subcontainer{
+		border-top-left-radius:3%;
+		border-top-right-radius:3%;
+		border-top-left-radius:3%;
+		border-bottom-left-radius:0%;
+	}
+	.cyan,.darkCyan{
+		border-top-left-radius:0%;
+		border-top-right-radius:0%;
+	}
+	.darkCyan{
+		border-bottom-right-radius:3%;
+		border-bottom-left-radius:3%;
+	}
+	
+	.subcontainer>article{
+		padding-right:40px;
+		line-height:1.7em;
+		margin-top:-5px;
+		
+	}
+	
+	article.bedapaddingCyan{padding-right:51px;}
+	
+}
